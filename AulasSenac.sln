@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulasSenac", "AulasSenac\AulasSenac.csproj", "{F81F27DD-5DA5-4777-9F9E-7EA191ED6AFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio0101_ContagemDeTexto", "Exercicio0101_ContagemDeTexto\Exercicio0101_ContagemDeTexto.csproj", "{91D3F110-E0D8-4030-A5FA-C6ABC51C8BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio0101_Test", "Exercicio0101_Test\Exercicio0101_Test.csproj", "{C567FD23-6D0A-48BC-98E8-F51C597E3959}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F81F27DD-5DA5-4777-9F9E-7EA191ED6AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F81F27DD-5DA5-4777-9F9E-7EA191ED6AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F81F27DD-5DA5-4777-9F9E-7EA191ED6AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D3F110-E0D8-4030-A5FA-C6ABC51C8BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D3F110-E0D8-4030-A5FA-C6ABC51C8BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D3F110-E0D8-4030-A5FA-C6ABC51C8BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D3F110-E0D8-4030-A5FA-C6ABC51C8BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C567FD23-6D0A-48BC-98E8-F51C597E3959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C567FD23-6D0A-48BC-98E8-F51C597E3959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C567FD23-6D0A-48BC-98E8-F51C597E3959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C567FD23-6D0A-48BC-98E8-F51C597E3959}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
