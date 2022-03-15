@@ -2,7 +2,7 @@
 
 /// <summary>
 /// Com base no texto inserido na variável texto do método Main(),
-/// implemente os métodos que possamm contar o total de letras, números e espaços
+/// implemente os métodos que possam contar o total de letras, números e espaços
 /// existentes nesse texto.
 /// 
 /// Em uma segunda etapa, imprima na tela o texto, substituindo os números por letras equivalentes, sendo:
@@ -28,22 +28,56 @@ namespace Exercicio0101_ContagemDeTexto
 
         public static int ContadorDeLetras(string value)
         {
-            return 0; //retorne o total de letras
+            int totalDeLetras = 0;
+
+            foreach (char letra in value)
+            {
+                if (char.IsLetter(letra))
+                    totalDeLetras++;
+            }
+
+            return totalDeLetras;
         }
 
         public static int ContadorDeNumeros(string value)
         {
-            return 0; //retorne o total de números
+            int totalDeNumeros = 0;
+
+            foreach (char letra in value)
+            {
+                if (char.IsDigit(letra))
+                    totalDeNumeros++;
+            }
+
+            return totalDeNumeros;
         }
 
         public static int ContadorDeSeparadores(string value)
         {
-            return 0; //retorne o total de separados (espaço, vírgula... )
+            int totalSeparadores = 0;
+
+            foreach (char letra in value)
+            {
+                if (char.IsSeparator(letra))
+                    totalSeparadores++;
+            }
+
+            return totalSeparadores; //retorne o total de separados (espaço, vírgula... )
         }
 
         public static string CorretorDeTexto(string value)
         {
-            return value; //transcreva o texto corrigido
+            /// 3 = E
+            /// 5 = S
+            /// 0 = O
+            /// 4 = A
+            /// 1 = I
+            value = value.Replace("3", "E");
+            value = value.Replace("5", "S");
+            value = value.Replace("0", "O");
+            value = value.Replace("4", "A");
+            value = value.Replace("1", "I");
+            return value; 
         }
 
     }

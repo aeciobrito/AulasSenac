@@ -6,6 +6,11 @@ namespace AulasSenac
     {
         static void Main(string[] args)
         {
+           
+        }
+
+        static void AulaStringsChars()
+        {
             #region EntendendoStrings
             //string texto = "Hello World!";
             //Console.WriteLine(texto.Replace("l", "5"));
@@ -57,17 +62,15 @@ namespace AulasSenac
             #endregion
 
             #region Loops For Each (percorrer listas)
-            string textoQualquer = "Feliz 2022!";
+            //string textoQualquer = "Feliz 2022!";
 
-            foreach (var letra in textoQualquer)
-            {
-                if (char.IsLetter(letra))
-                {
-                    Console.Write(letra);
-                }
-            }
-
-
+            //foreach (var letra in textoQualquer)
+            //{
+            //    if (char.IsLetter(letra))
+            //    {
+            //        Console.Write(letra);
+            //    }
+            //}
             #endregion
         }
     }
