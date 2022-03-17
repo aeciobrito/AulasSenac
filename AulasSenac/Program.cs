@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace AulasSenac
 {
@@ -6,8 +7,58 @@ namespace AulasSenac
     {
         static void Main(string[] args)
         {
-           
+            #region array
+            //int totalDeItems = 0;
+            //string texto = "Abacate, Banana, Cebola, Alho, Amendoim";
+
+            //string[] listaDeCompras = texto.Split();
+
+
+            //listaDeCompras[1] = "";
+            //for (int i = 0; i < listaDeCompras.Length; i++)
+            //{
+            //    if (listaDeCompras[i].StartsWith('A'))
+            //    {
+            //        Console.WriteLine(listaDeCompras[i]);
+            //    }
+            //}
+            #endregion
+            List<string> listaDeCompras = new List<string>();
+
+            listaDeCompras.Add("Abacate");
+            listaDeCompras.Add("Ovo");
+            listaDeCompras.Add("Cebola");
+            listaDeCompras.Add("Alho");
+            listaDeCompras.Add("Amendoim");
+
+            //listaDeCompras.Remove("Alho");
+            //listaDeCompras.Remove(listaDeCompras.Count);
+            //listaDeCompras.Insert(1, "Banana");
+            //listaDeCompras.RemoveAt(3);
+
+            //var resultado = listaDeCompras.Find(texto => texto.EndsWith("o"));
+            //resultado = listaDeCompras.FindLast(texto => texto.EndsWith("o"));
+            //var res = listaDeCompras.FindIndex(texto => texto.StartsWith("C"));
+            var res = listaDeCompras.FindAll(texto => texto.StartsWith("A"));
+
+            //Console.WriteLine(res);
+
+            foreach (var item in res)
+                Console.WriteLine(item);
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         static void AulaStringsChars()
         {
@@ -73,5 +124,7 @@ namespace AulasSenac
             //}
             #endregion
         }
+
+
     }
 }
