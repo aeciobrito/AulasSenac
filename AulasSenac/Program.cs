@@ -23,6 +23,18 @@ namespace AulasSenac
             //    }
             //}
             #endregion
+
+            var texto = Console.ReadLine();
+
+            Console.WriteLine($"{texto[0]}{texto.Length}{texto[texto.Length -1]}");
+        }
+
+
+
+
+
+        static void AulasListas()
+        {
             List<string> listaDeCompras = new List<string>();
 
             listaDeCompras.Add("Abacate");
@@ -46,12 +58,6 @@ namespace AulasSenac
             foreach (var item in res)
                 Console.WriteLine(item);
         }
-
-
-
-
-
-
 
 
 
