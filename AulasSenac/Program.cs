@@ -1,41 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace AulasSenac
 {
     internal class Program
     {
         static void Main(string[] args)
-        {
-            string items = "Abacate, Cebola, Banana";
-
-            var listaDeCompras = items.Split(' ');
-
-            //foreach (var decomp in listaDeCompras)
-            //{
-            //    Console.WriteLine(decomp);
-            //}
-
-           // Console.WriteLine(listaDeCompras.GetType());
-
-            double[,] notasDisciplinas = new double[10, 4];
-
-            Random rand = new Random();
-
-            for (int i = 0; i < 10; i++)
-            {
-                for (int j = 0; j < 4; j++)
-                {
-                    notasDisciplinas[i, j] = rand.NextDouble() * 10;
-                    //Console.WriteLine($"Disciplina {i + 1}, unidade {j + 1}: {notasDisciplinas[i,j]}");
-                    Console.Write($"[{notasDisciplinas[i,j]:00.0}]");
-                }
-                Console.WriteLine();
-            }           
-        }
-
-
-
-        static void AulaStrings()
         {
             #region EntendendoStrings
             //string texto = "Hello World!";
@@ -97,8 +67,6 @@ namespace AulasSenac
             //        Console.Write(letra);
             //    }
             //}
-
-
             #endregion
         }
     }
