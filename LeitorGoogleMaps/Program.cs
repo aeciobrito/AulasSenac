@@ -4,6 +4,14 @@ namespace LeitorGoogleMaps
 {
     internal class Program
     {
+        /// <summary>
+        /// Atividade: 
+        /// 1 - Crie uma classe que represente o nome do lugar contido no endereço.
+        /// 2 - Gere um novo objeto capaz de guardar esse endereço no código.
+        /// 3 - Adicione esse objeto a uma lista de objetos da mesma classe
+        /// 4 - Escreva toda a lista de endereços cadastrados sempre que o programa inicializar
+        /// </summary>
+
         static string nomeLugar = string.Empty;
         static decimal posicaoX = 0m;
         static decimal posicaoY = 0m;
