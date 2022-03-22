@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AulasSenac", "AulasSenac\AulasSenac.csproj", "{F81F27DD-5DA5-4777-9F9E-7EA191ED6AFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AulasSenac", "AulasSenac\AulasSenac.csproj", "{F81F27DD-5DA5-4777-9F9E-7EA191ED6AFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio0101_ContagemDeTexto", "Exercicio0101_ContagemDeTexto\Exercicio0101_ContagemDeTexto.csproj", "{91D3F110-E0D8-4030-A5FA-C6ABC51C8BBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio0101_ContagemDeTexto", "Exercicio0101_ContagemDeTexto\Exercicio0101_ContagemDeTexto.csproj", "{91D3F110-E0D8-4030-A5FA-C6ABC51C8BBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio0101_Test", "Exercicio0101_Test\Exercicio0101_Test.csproj", "{C567FD23-6D0A-48BC-98E8-F51C597E3959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio0101_Test", "Exercicio0101_Test\Exercicio0101_Test.csproj", "{C567FD23-6D0A-48BC-98E8-F51C597E3959}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio0102_VerificaExtensaoValida", "Exercicio0102_VerificaExtensaoValida\Exercicio0102_VerificaExtensaoValida.csproj", "{6A5F5C34-E72F-4F07-A09F-4C81713677C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeitorGoogleMaps", "LeitorGoogleMaps\LeitorGoogleMaps.csproj", "{B75B1344-CFC0-411D-AAAE-463CC7E3B8FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{C567FD23-6D0A-48BC-98E8-F51C597E3959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C567FD23-6D0A-48BC-98E8-F51C597E3959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C567FD23-6D0A-48BC-98E8-F51C597E3959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5F5C34-E72F-4F07-A09F-4C81713677C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5F5C34-E72F-4F07-A09F-4C81713677C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5F5C34-E72F-4F07-A09F-4C81713677C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5F5C34-E72F-4F07-A09F-4C81713677C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75B1344-CFC0-411D-AAAE-463CC7E3B8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75B1344-CFC0-411D-AAAE-463CC7E3B8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75B1344-CFC0-411D-AAAE-463CC7E3B8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75B1344-CFC0-411D-AAAE-463CC7E3B8FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

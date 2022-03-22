@@ -6,6 +6,37 @@ namespace AulasSenac
     {
         static void Main(string[] args)
         {
+            string items = "Abacate, Cebola, Banana";
+
+            var listaDeCompras = items.Split(' ');
+
+            //foreach (var decomp in listaDeCompras)
+            //{
+            //    Console.WriteLine(decomp);
+            //}
+
+           // Console.WriteLine(listaDeCompras.GetType());
+
+            double[,] notasDisciplinas = new double[10, 4];
+
+            Random rand = new Random();
+
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    notasDisciplinas[i, j] = rand.NextDouble() * 10;
+                    //Console.WriteLine($"Disciplina {i + 1}, unidade {j + 1}: {notasDisciplinas[i,j]}");
+                    Console.Write($"[{notasDisciplinas[i,j]:00.0}]");
+                }
+                Console.WriteLine();
+            }           
+        }
+
+
+
+        static void AulaStrings()
+        {
             #region EntendendoStrings
             //string texto = "Hello World!";
             //Console.WriteLine(texto.Replace("l", "5"));
@@ -57,15 +88,15 @@ namespace AulasSenac
             #endregion
 
             #region Loops For Each (percorrer listas)
-            string textoQualquer = "Feliz 2022!";
+            //string textoQualquer = "Feliz 2022!";
 
-            foreach (var letra in textoQualquer)
-            {
-                if (char.IsLetter(letra))
-                {
-                    Console.Write(letra);
-                }
-            }
+            //foreach (var letra in textoQualquer)
+            //{
+            //    if (char.IsLetter(letra))
+            //    {
+            //        Console.Write(letra);
+            //    }
+            //}
 
 
             #endregion
