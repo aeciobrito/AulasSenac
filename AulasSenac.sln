@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio0101_ContagemDeTex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio0101_Test", "Exercicio0101_Test\Exercicio0101_Test.csproj", "{C567FD23-6D0A-48BC-98E8-F51C597E3959}"
 EndProject
-<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio0102_VerificaExtensaoValida", "Exercicio0102_VerificaExtensaoValida\Exercicio0102_VerificaExtensaoValida.csproj", "{6A5F5C34-E72F-4F07-A09F-4C81713677C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeitorGoogleMaps", "LeitorGoogleMaps\LeitorGoogleMaps.csproj", "{B75B1344-CFC0-411D-AAAE-463CC7E3B8FC}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDePessoas", "CadastroDePessoas\CadastroDePessoas.csproj", "{4FBEE29F-7069-42B3-AAA0-315C2CBC4F8B}"
->>>>>>> 033d1dfaab9acefc3984a8f6a56b291329c5d573
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeitorGoogleMaps", "LeitorGoogleMaps\LeitorGoogleMaps.csproj", "{B75B1344-CFC0-411D-AAAE-463CC7E3B8FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDePessoas", "CadastroDePessoas\CadastroDePessoas.csproj", "{4FBEE29F-7069-42B3-AAA0-315C2CBC4F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroEscola", "CadastroEscola\CadastroEscola.csproj", "{216B9180-EC21-4004-B477-CEC44B3CD2A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoRPG", "JogoRPG\JogoRPG.csproj", "{CB17EE92-5EBD-47C7-AA54-36F83EB82EB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,7 +37,6 @@ Global
 		{C567FD23-6D0A-48BC-98E8-F51C597E3959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C567FD23-6D0A-48BC-98E8-F51C597E3959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C567FD23-6D0A-48BC-98E8-F51C597E3959}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{6A5F5C34-E72F-4F07-A09F-4C81713677C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6A5F5C34-E72F-4F07-A09F-4C81713677C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A5F5C34-E72F-4F07-A09F-4C81713677C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,12 +45,18 @@ Global
 		{B75B1344-CFC0-411D-AAAE-463CC7E3B8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B75B1344-CFC0-411D-AAAE-463CC7E3B8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B75B1344-CFC0-411D-AAAE-463CC7E3B8FC}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{4FBEE29F-7069-42B3-AAA0-315C2CBC4F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4FBEE29F-7069-42B3-AAA0-315C2CBC4F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FBEE29F-7069-42B3-AAA0-315C2CBC4F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FBEE29F-7069-42B3-AAA0-315C2CBC4F8B}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 033d1dfaab9acefc3984a8f6a56b291329c5d573
+		{216B9180-EC21-4004-B477-CEC44B3CD2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216B9180-EC21-4004-B477-CEC44B3CD2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216B9180-EC21-4004-B477-CEC44B3CD2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216B9180-EC21-4004-B477-CEC44B3CD2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB17EE92-5EBD-47C7-AA54-36F83EB82EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB17EE92-5EBD-47C7-AA54-36F83EB82EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB17EE92-5EBD-47C7-AA54-36F83EB82EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB17EE92-5EBD-47C7-AA54-36F83EB82EB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,6 +17,10 @@ namespace CadastroDePessoas
 
             Console.WriteLine("Informe o peso: ");
             var peso = int.Parse(Console.ReadLine());
+
+            Pessoa novaPessoa = new Pessoa(nome, idade, peso);
+
+            novaPessoa.ExibirDados();
         }
     }
 }

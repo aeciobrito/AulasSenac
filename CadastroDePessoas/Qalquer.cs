@@ -1,0 +1,7 @@
+﻿namespace CadastroDePessoas
+{
+    class Qalquer
+    {
+
+    }
+}
