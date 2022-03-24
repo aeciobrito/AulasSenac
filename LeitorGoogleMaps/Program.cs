@@ -35,7 +35,8 @@ namespace LeitorGoogleMaps
         {
             if (string.IsNullOrEmpty(endereco))
                 ExibeMensagemDeErro("Endereço não pode ser vazio!");
-            else if (!endereco.StartsWith("https://www.google.com/maps/"))
+           // else if (!endereco.StartsWith("https://www.google.com/maps/") || !endereco.StartsWith("https://www.google.com.br/maps/"))
+            else if (!endereco.Contains("www.google.com") && !endereco.Contains("maps"))
                 ExibeMensagemDeErro("Não é um link do google maps válido.\nEndereço deve iniciar com https://www.google.com/maps/");
 
             SeparaDadosEndereco(endereco);
