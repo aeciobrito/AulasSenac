@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace JogoRPG
+﻿namespace JogoRPG
 {
     class Mago : Personagem
     {
+        public Mago(string nome, int pontosDeVida, int forca, int defesa, bool estaVivo) 
+            : base(nome, pontosDeVida, forca, defesa, estaVivo)
+        {
+
+        }
+
         public int PontosDeMagia { get; set; }
 
         public void ConjurarMagia()

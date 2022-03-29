@@ -8,17 +8,27 @@ namespace JogoRPG
 {
     abstract class Personagem
     {
-        public string Nome { get; set; }
-        public int PontosDeVida { get; set; }
-        public int Forca { get; set; }
-        public int Defesa { get; set; }
+        protected Personagem(string nome, int pontosDeVida, int forca, int defesa, bool estaVivo)
+        {
+            Nome = nome;
+            PontosDeVida = pontosDeVida;
+            Forca = forca;
+            Defesa = defesa;
+            EstaVivo = estaVivo;
+        }
+
+        public string Nome { get; private set; }
+        public int PontosDeVida { get; private set; }
+        public int Forca { get; private set; }
+        public int Defesa { get; private set; }
+        public bool EstaVivo { get; private set; }
 
         public int Atacar()
         {
             return Forca;
         }
 
-        public void ReceberDano(int danoRecebido)
+        public virtual void ReceberDano(int danoRecebido)
         {
             PontosDeVida -= danoRecebido;
 

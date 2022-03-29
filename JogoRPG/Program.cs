@@ -6,14 +6,18 @@ namespace JogoRPG
     {
         static void Main(string[] args)
         {            
-            Guerreiro guerreiro1 = new Guerreiro();
-            guerreiro1.Nome = "Aragorn";
-            guerreiro1.Forca = 10;
-            guerreiro1.Defesa = 40;
-            guerreiro1.DefesaEscudo = 10;
-            guerreiro1.PontosDeVida = 100;
+            Guerreiro guerreiro1 = new Guerreiro("Aragorn", 100, 10, 40, true, 5);
+            Mago mago1 = new Mago("Gendalf", 100, 10, 40, true);
 
-            Mago mago1 = new Mago();
+            Console.WriteLine($"{guerreiro1.Nome} atacou com {guerreiro1.Atacar()}");
+            guerreiro1.ReceberDano(20);
+            Console.WriteLine($"{guerreiro1.Nome} apanhou e ficou com {guerreiro1.PontosDeVida}");
+
+            Console.WriteLine("-----------------------------------");
+
+            Console.WriteLine($"{mago1.Nome} atacou com {mago1.Atacar()}");
+            mago1.ReceberDano(20);
+            Console.WriteLine($"{mago1.Nome} apanhou e ficou com {mago1.PontosDeVida}");
         }
     }
 }
