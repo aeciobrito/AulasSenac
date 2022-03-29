@@ -10,8 +10,8 @@ namespace JogoRPG
     {
         public int DefesaEscudo { get; private set; }
 
-        public Guerreiro(string nome, int pontosDeVida, int forca, int defesa, bool estaVivo, int defesaDoEscudo)
-            : base(nome, pontosDeVida, forca, defesa, estaVivo)
+        public Guerreiro(string nome, int pontosDeVida, int forca, int defesa, int defesaDoEscudo)
+            : base(nome, pontosDeVida, forca, defesa)
         {
             DefesaEscudo = defesaDoEscudo;
         }

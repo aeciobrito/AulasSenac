@@ -6,8 +6,8 @@ namespace JogoRPG
     {
         static void Main(string[] args)
         {            
-            Guerreiro guerreiro1 = new Guerreiro("Aragorn", 100, 10, 40, true, 5);
-            Mago mago1 = new Mago("Gendalf", 100, 10, 40, true);
+            Guerreiro guerreiro1 = new Guerreiro("Aragorn", 100, 10, 40, 5);
+            Mago mago1 = new Mago("Gendalf", 100, 10, 40);
 
             Console.WriteLine($"{guerreiro1.Nome} atacou com {guerreiro1.Atacar()}");
             guerreiro1.ReceberDano(20);

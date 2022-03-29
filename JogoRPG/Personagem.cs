@@ -8,13 +8,13 @@ namespace JogoRPG
 {
     abstract class Personagem
     {
-        protected Personagem(string nome, int pontosDeVida, int forca, int defesa, bool estaVivo)
+        protected Personagem(string nome, int pontosDeVida, int forca, int defesa)
         {
             Nome = nome;
             PontosDeVida = pontosDeVida;
             Forca = forca;
-            Defesa = defesa;
-            EstaVivo = estaVivo;
+            Defesa = defesa ;
+            EstaVivo = true;
         }
 
         public string Nome { get; private set; }
