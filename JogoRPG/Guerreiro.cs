@@ -10,9 +10,5 @@ namespace JogoRPG
     {
         public int DefesaEscudo { get; set; }
 
-        public void Defender()
-        {
-
-        }
     }
 }

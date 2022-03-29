@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace JogoRPG
 {
-
-    /*
-     * Propriedades: nome, pontosDeVida, forca, defesa
-        Métodos: Atacar(), ReceberDano(), Morrer()*/
     abstract class Personagem
     {
         public string Nome { get; set; }
@@ -17,19 +13,24 @@ namespace JogoRPG
         public int Forca { get; set; }
         public int Defesa { get; set; }
 
-        public void Atacar()
+        public int Atacar()
         {
-
+            return Forca;
         }
 
-        public void ReceberDano()
+        public void ReceberDano(int danoRecebido)
         {
-            
+            PontosDeVida -= danoRecebido;
+
+            if (PontosDeVida <= 0)
+            {
+                Morrer();
+            }
         }
 
         public void Morrer()
         {
-
+            Console.WriteLine($"{Nome} morreu!");
         }
 
     }

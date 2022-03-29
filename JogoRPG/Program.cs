@@ -13,7 +13,6 @@ namespace JogoRPG
             guerreiro1.DefesaEscudo = 10;
             guerreiro1.PontosDeVida = 100;
 
-            Arqueiro arqueiro1 = new Arqueiro();
             Mago mago1 = new Mago();
         }
     }
